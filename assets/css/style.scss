@@ -1,0 +1,78 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+
+//portfolio title
+h1 a { 
+    color: #8a657d; text-decoration: none; 
+}
+h1 a:hover, h1 a:focus { 
+    color: #685160; font-weight: bold; 
+}
+//nav
+#nav{
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+    position: -webkit-sticky; /* Safari & IE */
+    position: sticky;
+    top: 0;
+    float: left;
+    padding: 10px 0px 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+#nav h2:last-of-type{
+    margin-left: 40px;
+}
+
+//links
+a{ 
+    color: #6d91ca; text-decoration: none; 
+}
+a:hover, a:focus { 
+    color: #506a92; font-weight: bold; 
+}
+
+//header text
+h1, h2, h3, h4{
+    //font-family: monaco, Consolas, "Lucida Console", monospace; 
+    //font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-family: Candara, Calibri, "Segoe UI", Optima, Arial, sans-serif;
+    //font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    //font-family: Helvetica, Arial, sans-serif;
+}
+//project header h3
+h3{
+    color: #be8064;
+    font-size: 1.25em;
+}
+
+//screenshots
+p img{
+    width: 150px;
+    padding-right: 20px;
+}
+
+    @media print, screen and (max-width: 960px) { 
+    header{
+        padding-right: 0;
+    } 
+    header h1, header img{
+        margin: auto;
+        display: block;
+    }
+    header h1{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    header img{
+        margin-bottom: 10px;
+    }
+    #nav{
+        justify-content: space-evenly;
+        padding-top: 20px;
+    }
+}
