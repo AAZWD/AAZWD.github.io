@@ -100,7 +100,7 @@ A website created to host a multimedia project. Combines photo editing and narra
 [Git Repository](https://github.com/AAZWD/ui-practice "Git Repository Link")
 
 #### Purpose
-A site created to practice UI design. It randomly generateS preselected YouTube videos.
+A site created to practice UI design. It randomly generates preselected YouTube videos.
 
 #### Technologies
 -JavaScript  
