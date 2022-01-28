@@ -134,4 +134,4 @@ bundle exec jekyll serve
 
 <div id="des"></div>
 ### Design Additions to this blog coming soon!
-#### In the meantime check out my [Behance Portfolio](https://github.com/AAZWD/acme_solutions-informational-site "Behance Portfolio Link") for my latest design projects
+#### In the meantime check out my [Behance Portfolio](https://www.behance.net/aazwd "Behance Portfolio Link") for my latest design projects
